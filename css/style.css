@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+body{
+   background: #282C34;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 24px;
+}
+/* header */
+header{
+    width: 100%;
+    height: 100%;
+}
+
+header .menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px ;
+    background-color: #3C3F49;
+}
+header .menu li{
+    display: inline-block;
+}
+header .menu a{
+    color: aliceblue;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+/* section */
+section .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 120px 20px 20px 20px;
+    
+}
+section .text-form{
+    width: 50%;
+    padding: 20px;
+}
+
+section .text-form h1{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+section .text-form p{
+    font-size:16px;
+    padding-top: 10px;
+    line-height: 24px;
+}
+
+.bnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bnt a{
+    background-color: #169FE3; 
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 500ms;
+}
+
+.bnt a:hover {
+    background-color: #1668e3; /* Green */
+    color: white;
+}
+
+.card{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 50px; 
+   color:#fff;
+   background-color: #3C3F49;
+   margin: 20px;
+}
+
+.card h4{
+    padding-inline: 20px;
+}
+
+.card_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0F6793;
+    color: #fff;
+    padding: 50px;
+    margin: 0 500px 0 500px;
+}
+
+.card_2 h1{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+
+.card_game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C3F49;
+    padding: 30px;
+    color: #fff;
+}
+
+.card_game_img{
+    padding: 20px;
+}
+
+.card_game_txt{
+    width: 40%;
+    padding: 20px;
+}
+
+.card_game .bnt{
+    padding-top: 30px;
+}
+
+.card_game h4{
+    padding-bottom: 20px;
+}
+
+.card_game_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#282C34;
+    padding: 30px;
+    color: #fff;
+}
+
+.card_game_2 h4{
+    padding-bottom: 20px;
+}
+.card_3{
+    background-color: #3C3F49;
+    margin: 30px 0 30px 0;
+}
+
+.card_3_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #3C3F49;
+    color: #fff;
+    margin: 0 500px 0 500px;
+}
+
+.card_3_txt h1{
+    font-size: 32px;
+    padding: 20px;
+}
+
+
+.card_3_txt_2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px; 
+    color:#fff;
+    background-color: #3C3F49;
+}
+
+.card_3_txt_2 h4{
+    padding-inline: 20px;
+}
+
+.cog-form__content{
+    background-color: #3C3F49 !important;
+    color: #fff !important;
+}
+.cog-field cog-field--1 cog-col cog-col--12 cog-text cog-text--singleline{
+    color: #fff !important;
+}
+
+.cog-header__text{
+    color: #fff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.cog-row{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;  
+}
+
+.cog-page__navigation{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;  
+}
+
+.el-button cog-button--has-status cog-button--primary cog-button--navigation cog-button--submit el-button--default cog-button{
+    color: #169FE3 !important;
+}
+
+
+/* footer */
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;           
+  }
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icons img{
+    margin: 4px;
+}
+
+.icons img:hover{
+    transform: scale(1.3);
+    transition: 200ms;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: #fff;
+}
