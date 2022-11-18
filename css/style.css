@@ -112,7 +112,7 @@ section .text-form p{
     background-color: #0F6793;
     color: #fff;
     padding: 50px;
-    margin: 0 500px 0 500px;
+    margin: 0 500px 20px 500px;
 }
 
 .card_2 h1{
@@ -256,3 +256,155 @@ footer {
     padding-bottom: 20px;
     color: #fff;
 }
+@media(max-width:375px){
+    
+header .menu{
+    width: 110vw;
+}
+
+.img-form{
+    display: none;
+}
+
+section .text-form {
+    width: 100vw;
+}
+
+section .text-form h1{
+    font-size:26px;
+}
+
+.card{
+    width: 94vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    padding: 12px;
+}
+
+.card h4{
+    font-size: 10px;
+}
+.card_2{
+    display: none;
+}
+.card_game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    width: 106vw;
+}
+
+.card_game_img img{
+    width: 100vw
+}
+
+.card_game_txt{
+    width: auto;
+    padding: 20px;
+}
+
+.card_game_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 106vw;
+}
+
+.card_3_txt{
+    margin: auto;
+}
+
+}
+
+@media(max-width:1024px){
+    
+header .menu{
+    width: 110vw;
+}
+    
+.img-form{
+    display: none;
+}
+    
+section .text-form {
+    width: 100vw;
+}
+    
+section .text-form h1{
+    font-size:26px;
+}
+    
+.card{
+    width: 101vw;
+    display: flex;
+    flex-direction: column;
+}
+    
+.card img{
+    padding: 12px;
+}
+    
+.card h4{
+    font-size: 10px;
+}
+.card_2{
+    display: none;
+}
+.card_game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    width: 106vw;
+}
+    
+.card_game_img img{
+    width: 100vw
+}
+    
+.card_game_txt{
+    width: auto;
+    padding: 20px;
+}
+    
+.card_game_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 106vw;
+}
+    
+.card_3{
+    width: 106vw;
+}
+
+.card_3_txt{
+    margin: auto;
+}
+
+
+}
+
+@media(max-width:1480px){
+    
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_2{
+    margin: auto;
+}
+
+.card_3_txt{
+    margin: auto;
+}
+    }
